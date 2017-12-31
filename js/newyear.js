@@ -131,6 +131,7 @@ $(document).ready(function() {
 	clock = $clock.FlipClock(diff, {
 		clockFace: 'DailyCounter',
 		countdown: true,
+		language: 'fr',
 		callbacks: {
 			interval: function() {
 				var time = this.factory.getTime().time;
